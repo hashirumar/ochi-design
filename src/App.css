@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+@font-face {
+  font-family: 'FoundersGroteskXCond-Lt';
+  src: url('/src/assets/fonts/FoundersGroteskXCond-Lt.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
