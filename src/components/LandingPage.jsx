@@ -17,21 +17,11 @@ function LandingPage() {
        )
        })};
       </div>
-      {/* <div className="textstructure mt-48 px-20">
-        <div className='masker'>
-          <h1 className="uppercase leading-[6vw] tracking-tighter font-medium text-[6.5vw] font-['Test Founders Gtsk X-Cond SmB']">We create</h1>
-        </div>
-        <div className='masker'>
-          <h1 className="uppercase leading-[6vw] tracking-tighter font-medium text-[6.5vw] font-['Test Founders Gtsk X-Cond SmB']">eye-opening</h1>
-        </div>
-        <div className='masker'>
-          <h1 className="uppercase leading-[6vw] tracking-tighter font-medium text-[6.5vw] font-['Test Founders Gtsk X-Cond SmB']">presentations</h1>
-        </div>
-      </div> */}
+      
       
       
 
-      <div className="border-t-[1px] border-zinc-700 mt-32 flex items-center justify-between py-5 px-20 ">
+      <div className="border-t-[1px] border-zinc-700 mt-20 flex items-center justify-between py-5 px-20 ">
         {["Presentation and storytelling agency","For innovation teams and global brands"]
         .map((item,index)=><p className="text-md font-light">{item}</p>)}
         <div className="start flex items-center gap-5">
